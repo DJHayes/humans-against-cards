@@ -1,0 +1,19 @@
+p {
+	color: red;
+	font-size: 16px;
+}
+
+h1 {
+	font-size: 75px;
+	text-align: center;
+}
+
+@font-face {
+	font-family: open_sans;
+	src: local(FreeSansBold.woff), url('fonts/FreeSansBold.woff');
+	font-weight: bold;
+}
+
+body {
+	font-family: open_sans;
+}
